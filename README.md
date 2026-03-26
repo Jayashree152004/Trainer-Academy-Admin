@@ -1,19 +1,33 @@
+<<<<<<< HEAD
 <!-- # Getting Started with Create React App
+=======
+# Training Academy - Admin Dashboard
+>>>>>>> 6290677390a7dc7bf8a59b8f7f894f9049d341d8
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Professional admin panel for course & trainer management.**
 
-## Available Scripts
+## Features
+- Course CRUD + Image Upload
+- Trainer CRUD + Profile Photos 
+- Search/Filter Tables
+- Image Preview on Add/Edit
+- Fully Responsive
+- FormData File Upload
 
-In the project directory, you can run:
+## Quick Start
+npm install
+npm start
 
-### `npm start`
+## Live Demo
+[Deployed on Vercel]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+React 18 | Axios | CSS3 | Spring Boot API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+(Add after deployment)
 
+<<<<<<< HEAD
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -94,3 +108,5 @@ React 18 | Axios | CSS3 | Spring Boot API
 ## Screenshots
 (Add after deployment)
 
+=======
+>>>>>>> 6290677390a7dc7bf8a59b8f7f894f9049d341d8
