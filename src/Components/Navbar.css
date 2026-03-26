@@ -1,0 +1,108 @@
+/* Navbar.css - Classic Professional Theme */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.navbar {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3949ab 100%);
+    color: #ffffff;
+    padding: 0 30px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #c9a227;
+}
+
+.navbar-brand a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.navbar-brand a::first-letter {
+    color: #c9a227;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 8px;
+}
+
+.navbar-links a {
+    color: #e8eaf6;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 10px 18px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-links a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #c9a227;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-links a:hover {
+    color: #ffffff;
+    background-color: rgba(201, 162, 39, 0.15);
+}
+
+.navbar-links a:hover::before {
+    width: 80%;
+}
+
+.navbar-links a.active {
+    color: #c9a227;
+    background-color: rgba(201, 162, 39, 0.1);
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-user span {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #c9a227;
+    letter-spacing: 0.5px;
+}
+
+.logout-btn {
+    background: linear-gradient(135deg, #c9a227, #b8860b);
+    color: #1a237e;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(201, 162, 39, 0.3);
+}
+
+.logout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(201, 162, 39, 0.5);
+    background: linear-gradient(135deg, #daa520, #c9a227);
+}
