@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link ,useNavigate } from 'react-router-dom';
-import { AuthProvider } from './Context/AuthContext';
+import { BrowserRouter, Routes, Route ,useNavigate } from 'react-router-dom';
+
 import AdminDashboard from './Components/AdminDashboard';
 import CoursesAdmin from './Components/CoursesAdmin';
 import TrainersAdmin from './Components/TrainersAdmin';
